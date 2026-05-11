@@ -1,0 +1,152 @@
+/* Editorial-Layout: CMS-Korrekturen */
+
+/* Desktop: Hauptüberschrift kleiner */
+@media screen and (min-width: 981px) {
+  .zp-content header.main h1 {
+    font-size: 3em;
+    line-height: 1.15;
+  }
+}
+
+/* Zwischenüberschriften deutlich kleiner als HTML5UP-Default */
+.zp-content h2 {
+  font-size: 1.6em;
+  line-height: 1.35;
+  margin: 1.7em 0 0.8em 0;
+}
+
+.zp-content h3 {
+  font-size: 1.25em;
+  line-height: 1.35;
+  margin: 1.5em 0 0.7em 0;
+}
+
+/* Mobil nicht künstlich vergrößern */
+@media screen and (max-width: 736px) {
+  .zp-content header.main h1 {
+    font-size: 2.2em;
+  }
+
+  .zp-content h2 {
+    font-size: 1.35em;
+  }
+
+  .zp-content h3 {
+    font-size: 1.15em;
+  }
+}
+
+/* CMS-kompatible Bildausrichtung wie in super.css */
+.zp-content img.alignright {
+  float: right;
+  margin: 0 0 1.25em 1.5em;
+}
+
+.zp-content img.alignleft {
+  float: left;
+  margin: 0 1.5em 1.25em 0;
+}
+
+.zp-content img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zp-content img.alignright,
+.zp-content img.alignleft,
+.zp-content img.aligncenter {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Kleine Bildschirme: keine Floats */
+@media screen and (max-width: 736px) {
+  .zp-content img.alignright,
+  .zp-content img.alignleft {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Button: HTML5UP-Buttonstil überschreiben */
+.zp-content #myButton {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #585858 !important;
+  color: #ffffff !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 4px;
+  height: auto;
+  line-height: 1.2;
+  font-size: 0.9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  cursor: pointer;
+}
+
+/* PayPal-Bild neben dem Button */
+.zp-content #myButton + img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: auto;
+  margin: 0 0 2px 1em;
+}
+
+/* Button-Zeile auf sehr schmalen Bildschirmen sauber umbrechen */
+@media screen and (max-width: 480px) {
+  .zp-content #myButton + img {
+    display: block;
+    margin: 1em auto 0 auto;
+  }
+}
+
+/* Editorial: Überschriften kleiner als HTML5UP-Default */
+
+body #main .inner section.zp-content header.main h1,
+body #main .inner .zp-content header.main h1,
+body #main .inner .zp-content h1 {
+  font-size: 2.4em !important;
+  line-height: 1.15 !important;
+  margin: 0 0 1.2em 0 !important;
+}
+
+body #main .inner section.zp-content h2,
+body #main .inner .zp-content h2 {
+  font-size: 1.35em !important;
+  line-height: 1.35 !important;
+  margin: 1.6em 0 0.65em 0 !important;
+}
+
+body #main .inner section.zp-content h3,
+body #main .inner .zp-content h3 {
+  font-size: 1.15em !important;
+  line-height: 1.35 !important;
+  margin: 1.4em 0 0.6em 0 !important;
+}
+
+/* Mobil noch etwas kompakter */
+@media screen and (max-width: 736px) {
+  body #main .inner section.zp-content header.main h1,
+  body #main .inner .zp-content header.main h1,
+  body #main .inner .zp-content h1 {
+    font-size: 2em !important;
+  }
+
+  body #main .inner section.zp-content h2,
+  body #main .inner .zp-content h2 {
+    font-size: 1.25em !important;
+  }
+
+  body #main .inner section.zp-content h3,
+  body #main .inner .zp-content h3 {
+    font-size: 1.1em !important;
+  }
+}
