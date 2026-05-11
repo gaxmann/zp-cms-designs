@@ -1,4 +1,4 @@
-# ZP.CMS third-party design snapshots
+# Third-party design snapshots tested with ZP.CMS
 
 This repository contains unchanged third-party design/theme snapshots tested with ZP.CMS.
 
