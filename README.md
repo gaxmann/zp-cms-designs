@@ -92,9 +92,9 @@ $GLOBALS['zconf']=[
 
 There is no single project licence for this repository.
 
-Each included design/theme keeps its original upstream licence, copyright notices and attribution requirements.
+Each included design/theme remains under its original upstream licence, including its original copyright notices and attribution requirements.
 
-Do not apply the ZP.CMS AGPL-3.0 licence to the files in this repository as a whole.
+The ZP.CMS licence does not apply to this repository as a whole.
 
 ## Notes
 
