@@ -99,5 +99,3 @@ The ZP.CMS licence does not apply to this repository as a whole.
 ## Notes
 
 The design/theme files are archived as tested snapshots. They may not be the latest upstream versions.
-
-If a design is updated from upstream, update the corresponding notice and keep the original licence and copyright files intact.
