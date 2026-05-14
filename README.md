@@ -19,7 +19,13 @@ This repository archives the external design/theme files that were tested with Z
 ## Included designs
 
 ```text
+layout/wordpress/generatepress/
 layout/wordpress/graphy/
+layout/wordpress/independent-publisher-2/
+layout/wordpress/minnow/
+layout/wordpress/noto-simple/
+layout/wordpress/seedlet/
+layout/wordpress/sosimple/
 layout/wordpress/syntax/
 layout/wordpress/twentytwentyfive/
 layout/editorial/editorial/
@@ -27,7 +33,9 @@ layout/editorial/editorial/
 
 ## ZP.CMS layout values
 
-Use these values in the ZP.CMS config after copying the corresponding design directory into the ZP.CMS `layout/` directory:
+Use one of these values in the ZP.CMS config after copying the corresponding design directory into the ZP.CMS `layout/` directory:
+
+Examples:
 
 ```php
 $GLOBALS['zconf']=[
@@ -35,17 +43,9 @@ $GLOBALS['zconf']=[
 ];
 ```
 
-Other examples:
-
 ```php
 $GLOBALS['zconf']=[
-	'layout'=>'wordpress/syntax',
-];
-```
-
-```php
-$GLOBALS['zconf']=[
-	'layout'=>'wordpress/twentytwentyfive',
+	'layout'=>'wordpress/sosimple',
 ];
 ```
 
