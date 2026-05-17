@@ -19,23 +19,22 @@ This repository archives the external design/theme files that were tested with Z
 ## Included designs
 
 ```text
-layout/wordpress/generatepress/
 layout/wordpress/graphy/
+layout/wordpress/syntax/
 layout/wordpress/independent-publisher-2/
+layout/wordpress/editor/
 layout/wordpress/minnow/
+layout/wordpress/generatepress/
+layout/wordpress/twentytwentyfive/
 layout/wordpress/noto-simple/
 layout/wordpress/seedlet/
 layout/wordpress/sosimple/
-layout/wordpress/syntax/
-layout/wordpress/twentytwentyfive/
 layout/editorial/editorial/
 ```
 
 ## ZP.CMS layout values
 
-Use one of these values in the ZP.CMS config after copying the corresponding design directory into the ZP.CMS `layout/` directory:
-
-Examples:
+Use one of these values in the ZP.CMS config after copying the corresponding design directory into the ZP.CMS `layout/` directory. Examples:
 
 ```php
 $GLOBALS['zconf']=[
@@ -57,9 +56,7 @@ $GLOBALS['zconf']=[
 
 ## Repository scope
 
-This repository is only a third-party design archive.
-
-It does not contain the ZP.CMS generator code. The corresponding generators are part of ZP.CMS itself, for example:
+This repository is only a third-party design archive. It does not contain the ZP.CMS generator code. The corresponding generators are part of ZP.CMS itself, for example:
 
 ```text
 zp/wordpress.php
@@ -68,9 +65,7 @@ zp/editorial.php
 
 ## Usage
 
-Copy the required design directory into the ZP.CMS `layout/` directory.
-
-Example:
+Copy the required design directory into the ZP.CMS `layout/` directory. Example:
 
 ```text
 this repository:
@@ -90,9 +85,7 @@ $GLOBALS['zconf']=[
 
 ## Licensing
 
-There is no single project licence for this repository.
-
-Each included design/theme remains under its original upstream licence, including its original copyright notices and attribution requirements.
+There is no single project licence for this repository. Each included design/theme remains under its original upstream licence, including its original copyright notices and attribution requirements.
 
 The ZP.CMS licence does not apply to this repository as a whole.
 

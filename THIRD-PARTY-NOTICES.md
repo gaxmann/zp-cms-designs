@@ -45,6 +45,34 @@ the ZP.CMS WordPress adapter. They are not part of the ZP.CMS core package.
 
 Place each original theme snapshot under the matching directory in `/layout/wordpress/`.
 
+### Editor
+
+Editor WordPress Theme  
+Author: Array  
+License: GNU General Public License v2 or later  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+Source: https://array.is/themes/editor-wordpress-theme/  
+Version: 1.0.1  
+Copyright: 2014 Array
+
+Bundled resources noted in the original theme files:
+
+- Font Awesome 4.1.0 by Dave Gandy, font licensed SIL OFL 1.1, CSS licensed MIT
+
+Directory:
+
+```text
+/layout/wordpress/editor/
+```
+
+ZP.CMS layout value:
+
+```php
+'layout'=>'wordpress/editor'
+```
+
+Modifications: none
+
 ### Graphy
 
 Graphy WordPress Theme  
