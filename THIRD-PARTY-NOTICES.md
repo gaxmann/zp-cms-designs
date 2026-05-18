@@ -28,12 +28,36 @@ Author: AJ / @ajlkn
 License: Creative Commons Attribution 3.0 (CCA 3.0)  
 License URL: html5up.net/license
 
-ZP.CMS includes the Editorial generator (`zp/editorial.php`). The original HTML5 UP
+ZP.CMS includes the Editorial generator (`layout/_zpgen/editorial/zpgen.php`). The original HTML5 UP
 Editorial template files are not included in the ZP.CMS core package. To use this
 design, place the Editorial design files under:
 
 ```text
 /layout/editorial/editorial/
+```
+
+Modifications: none
+
+## Paradigm Shift
+
+Paradigm Shift by HTML5 UP  
+Source: html5up.net/paradigm-shift  
+Author: AJ / @ajlkn  
+License: Creative Commons Attribution 3.0 (CCA 3.0)  
+License URL: html5up.net/license
+
+ZP.CMS includes the Paradigm Shift generator (`layout/_zpgen/paradigm-shift/zpgen.php`). The original HTML5 UP
+Paradigm Shift template files are not included in the ZP.CMS core package. To use this
+design, place the Paradigm Shift design files under:
+
+```text
+/layout/paradigm-shift/paradigm-shift/
+```
+
+ZP.CMS layout value:
+
+```php
+'layout'=>'paradigm-shift/paradigm-shift'
 ```
 
 Modifications: none

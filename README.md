@@ -11,7 +11,7 @@ See the original readme/licence files inside each design directory and `THIRD-PA
 ZP.CMS uses a two-level layout structure:
 
 ```text
-layout/<generator>/<design>/
+layout/<family>/<design>/
 ```
 
 This repository archives the external design/theme files that were tested with ZP.CMS, so a known working design state can be restored later.
@@ -21,15 +21,17 @@ This repository archives the external design/theme files that were tested with Z
 ```text
 layout/wordpress/graphy/
 layout/wordpress/syntax/
-layout/wordpress/independent-publisher-2/
+layout/editorial/editorial/
+layout/paradigm-shift/paradigm-shift/
+layout/wordpress/twentytwentyfive/
+
 layout/wordpress/editor/
 layout/wordpress/minnow/
+layout/wordpress/independent-publisher-2/
 layout/wordpress/generatepress/
-layout/wordpress/twentytwentyfive/
 layout/wordpress/noto-simple/
 layout/wordpress/seedlet/
 layout/wordpress/sosimple/
-layout/editorial/editorial/
 ```
 
 ## ZP.CMS layout values
@@ -54,14 +56,29 @@ $GLOBALS['zconf']=[
 ];
 ```
 
+```php
+$GLOBALS['zconf']=[
+	'layout'=>'paradigm-shift/paradigm-shift',
+];
+```
+
 ## Repository scope
 
-This repository is only a third-party design archive. It does not contain the ZP.CMS generator code. The corresponding generators are part of ZP.CMS itself, for example:
+This repository is only a third-party design archive. It does not contain the ZP.CMS generator code.
+
+The corresponding ZP.CMS generators are part of ZP.CMS itself. Shared ZP generators are loaded from:
 
 ```text
-zp/wordpress.php
-zp/editorial.php
+layout/_zpgen/<family>/zpgen.php
 ```
+
+A layout family may also provide its own local generator under:
+
+```text
+layout/<family>/_generator/zpgen.php
+```
+
+This repository contains neither of these generator directories.
 
 ## Usage
 
