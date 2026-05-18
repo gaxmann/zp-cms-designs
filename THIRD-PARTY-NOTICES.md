@@ -60,7 +60,7 @@ ZP.CMS layout value:
 'layout'=>'paradigm-shift/paradigm-shift'
 ```
 
-Modifications: none
+Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.
 
 ## WordPress design snapshots
 
@@ -345,3 +345,8 @@ ZP.CMS layout value:
 ```
 
 Modifications: none
+
+---
+---
+
+Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package

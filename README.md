@@ -14,7 +14,7 @@ ZP.CMS uses a two-level layout structure:
 layout/<family>/<design>/
 ```
 
-This repository archives the external design/theme files that were tested with ZP.CMS, so a known working design state can be restored later.
+This repository contains third-party design/theme files prepared and tested for use with ZP.CMS.
 
 ## Included designs
 

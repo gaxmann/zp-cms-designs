@@ -29,3 +29,7 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+---
+
+Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.

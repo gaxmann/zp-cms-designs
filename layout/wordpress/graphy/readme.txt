@@ -49,3 +49,4 @@ Graphy bundles the following third-party resources:
 * Source Serif Pro font from Google Fonts is licensed under SIL Open Font License 1.1 (http://www.google.com/fonts/specimen/Source+Serif+Pro)
 * Lora font from Google Fonts is licensed under SIL Open Font License 1.1 (http://www.google.com/fonts/specimen/Lora)
 * The photo on the screenshot is licensed under CC0 (https://unsplash.com/)
+
