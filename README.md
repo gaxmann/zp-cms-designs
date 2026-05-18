@@ -14,20 +14,19 @@ ZP.CMS uses a two-level layout structure:
 layout/<family>/<design>/
 ```
 
-This repository contains third-party design/theme files prepared and tested for use with ZP.CMS.
+This repository contains third-party design/theme files prepared and tested for use with ZP.CMS. (Sorted after how well the CSS currently works with/are adapted to ZP. Feel free to add your custom.css in the design folder, and share it with us.)
 
 ## Included designs
 
 ```text
 layout/wordpress/graphy/
 layout/wordpress/syntax/
+layout/wordpress/independent-publisher-2/
 layout/editorial/editorial/
 layout/paradigm-shift/paradigm-shift/
 layout/wordpress/twentytwentyfive/
-
 layout/wordpress/editor/
 layout/wordpress/minnow/
-layout/wordpress/independent-publisher-2/
 layout/wordpress/generatepress/
 layout/wordpress/noto-simple/
 layout/wordpress/seedlet/
