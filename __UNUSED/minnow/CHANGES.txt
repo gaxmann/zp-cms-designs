@@ -1,6 +1,0 @@
-functions.php
-
-SEARCH
-//fonts.googleapis.com/css -> ADD: return ''; am Anfang der Funktion
-
-REPLACE:
