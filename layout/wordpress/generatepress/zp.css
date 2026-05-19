@@ -1,14 +1,21 @@
+.inside-article {
+	padding: 40px;
+}
+
+.main-navigation .main-nav .menu-std-container ul,
 .main-navigation .menu-std-container ul {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
 }
 
+.main-navigation .main-nav .menu-std-container li,
 .main-navigation .menu-std-container li {
 	float: left;
 	position: relative;
 }
 
+.main-navigation .main-nav .menu-std-container a,
 .main-navigation .menu-std-container a {
 	display: block;
 	padding-left: 20px;
@@ -17,18 +24,57 @@
 }
 
 @media (max-width: 768px) {
+	.inside-article {
+		padding: 30px;
+	}
+
+	.main-navigation .menu-toggle {
+		display: block;
+		width: 100%;
+		padding: 15px 20px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.main-navigation .main-nav .menu-std-container ul,
 	.main-navigation .menu-std-container ul {
 		display: none;
 	}
 
-	.main-navigation.toggled .menu-std-container > ul {
+	.main-navigation.toggled .main-nav .menu-std-container ul,
+	.main-navigation.toggled .menu-std-container ul {
 		display: block;
 	}
 
+	.main-navigation .main-nav .menu-std-container li,
 	.main-navigation .menu-std-container li {
 		float: none;
 		clear: both;
 		display: block;
 		text-align: left;
 	}
+
+	.main-navigation .main-nav .menu-std-container a,
+	.main-navigation .menu-std-container a {
+		padding: 12px 20px;
+		line-height: 24px;
+	}
+}
+
+.main-navigation .menu-toggle,
+.main-navigation .menu-toggle:before,
+.main-navigation .menu-toggle .mobile-menu {
+	color: #522398;
+}
+
+.main-navigation .menu-toggle,
+.main-navigation .menu-toggle:hover,
+.main-navigation .menu-toggle:focus {
+	background: transparent;
+	border: 0;
+}
+
+.main-navigation .main-nav .menu-std-container a,
+.main-navigation .menu-std-container a {
+	color: #522398;
 }
