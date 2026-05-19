@@ -27,11 +27,10 @@ layout/paradigm-shift/paradigm-shift/
 layout/wordpress/twentytwentyfive/
 layout/wordpress/editor/
 layout/wordpress/minnow/
-layout/wordpress/generatepress/
-layout/wordpress/noto-simple/
-layout/wordpress/seedlet/
 layout/wordpress/sosimple/
 ```
+
+Designs with 2 hyphens at the beginning currently dont work correctly with the wp-2015 generator and need fixing, e.g. `layout/wordpress/--*/`
 
 ## ZP.CMS layout values
 
