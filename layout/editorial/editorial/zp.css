@@ -36,40 +36,6 @@
   }
 }
 
-/* CMS-kompatible Bildausrichtung wie in super.css */
-.zp-content img.alignright {
-  float: right;
-  margin: 0 0 1.25em 1.5em;
-}
-
-.zp-content img.alignleft {
-  float: left;
-  margin: 0 1.5em 1.25em 0;
-}
-
-.zp-content img.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.zp-content img.alignright,
-.zp-content img.alignleft,
-.zp-content img.aligncenter {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Kleine Bildschirme: keine Floats */
-@media screen and (max-width: 736px) {
-  .zp-content img.alignright,
-  .zp-content img.alignleft {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 /* Button: HTML5UP-Buttonstil überschreiben */
 .zp-content #myButton {

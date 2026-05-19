@@ -1,0 +1,115 @@
+/* ZP.CMS additions for paradigm-shift/paradigm-shift */
+
+.zp-content > header:empty {
+	display: none;
+}
+
+.zp-content .content > :first-child,
+.zp-navigation .content > :first-child {
+	margin-top: 0;
+}
+
+.zp-navigation nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.zp-navigation nav ul ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.zp-navigation nav li {
+	position: relative;
+}
+
+.zp-navigation a[aria-current="page"] {
+	font-weight: 700;
+}
+
+.zp-navigation .zp-dropdown,
+.zp-navigation .zp-dropdown details {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.zp-navigation .zp-dropdown > summary,
+.zp-navigation .zp-dropdown details > summary {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	list-style: none;
+	text-decoration: underline dotted;
+	text-underline-offset: 0.25em;
+}
+
+.zp-navigation .zp-dropdown > summary::-webkit-details-marker,
+.zp-navigation .zp-dropdown details > summary::-webkit-details-marker {
+	display: none;
+}
+
+.zp-navigation .zp-dropdown > summary::marker,
+.zp-navigation .zp-dropdown details > summary::marker {
+	content: "";
+}
+
+.zp-navigation .zp-dropdown > summary::after,
+.zp-navigation .zp-dropdown details > summary::after {
+	content: " +";
+	font-size: 0.85em;
+}
+
+.zp-navigation .zp-dropdown[open] > summary::after,
+.zp-navigation .zp-dropdown details[open] > summary::after {
+	content: " −";
+}
+
+.zp-navigation .zp-dropdown > ul,
+.zp-navigation .zp-dropdown details > ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 10000;
+	display: none;
+	min-width: 12rem;
+	margin: 0.5rem 0 0 0;
+	padding: 0.6rem 0.8rem;
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 0.35rem;
+	background: #fff;
+	box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.12);
+	list-style: none;
+}
+
+.zp-navigation .zp-dropdown[open] > ul,
+.zp-navigation .zp-dropdown details[open] > ul {
+	display: block;
+}
+
+.zp-navigation .zp-dropdown > ul li,
+.zp-navigation .zp-dropdown details > ul li {
+	display: block;
+	margin: 0.25rem 0;
+	white-space: nowrap;
+}
+
+.zp-navigation .zp-dropdown > ul a,
+.zp-navigation .zp-dropdown details > ul a {
+	display: block;
+}
+
+.zp-navigation .zp-lang .zp-dropdown > ul {
+	min-width: 4rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.zp-navigation .zp-dropdown:hover > ul,
+	.zp-navigation .zp-dropdown:focus-within > ul,
+	.zp-navigation .zp-dropdown details:hover > ul,
+	.zp-navigation .zp-dropdown details:focus-within > ul {
+		display: block;
+	}
+}

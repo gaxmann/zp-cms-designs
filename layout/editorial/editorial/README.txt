@@ -1,30 +1,35 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Editorial
+=========
 
+ZP.CMS support note
+-------------------
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+This directory is reserved for the Editorial design when used with ZP.CMS as:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+	'layout'=>'editorial/editorial'
 
-(* = not included)
+The original Editorial template files by HTML5 UP are not included in this
+package. This directory may contain ZP.CMS-specific support files, for example
+`zp.css`.
 
-AJ
-aj@lkn.io | @ajlkn
+Original design
+---------------
 
+Name: Editorial by HTML5 UP
+Author: AJ / @ajlkn
+License: Creative Commons Attribution 3.0
+License URL: https://html5up.net/license
+Source: https://html5up.net/editorial
 
-Credits:
+Credits listed by HTML5 UP
+--------------------------
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Demo images: Unsplash (not included)
+Icons: Font Awesome
+Other: jQuery, Responsive Tools
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Notes
+-----
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Use this directory only together with the matching original Editorial template
+files. The ZP.CMS generator is `editorial`; the design name is `editorial`.
