@@ -1,0 +1,23 @@
+.primary-navigation-open .primary-navigation > .menu-std-container {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.primary-navigation .menu-std-container > ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.primary-navigation .menu-std-container > ul > .menu-item {
+	padding: calc(0.5 * var(--primary-nav--padding)) 0;
+}
+
+@media only screen and (min-width: 482px) {
+	.primary-navigation .menu-std-container > ul > .menu-item {
+		display: flex;
+		align-items: center;
+		padding: var(--primary-nav--padding);
+	}
+}

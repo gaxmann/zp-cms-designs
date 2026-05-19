@@ -1,0 +1,34 @@
+.main-navigation .menu-std-container ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation .menu-std-container li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation .menu-std-container a {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 60px;
+}
+
+@media (max-width: 768px) {
+	.main-navigation .menu-std-container ul {
+		display: none;
+	}
+
+	.main-navigation.toggled .menu-std-container > ul {
+		display: block;
+	}
+
+	.main-navigation .menu-std-container li {
+		float: none;
+		clear: both;
+		display: block;
+		text-align: left;
+	}
+}
