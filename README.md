@@ -30,7 +30,7 @@ layout/wordpress/minnow/
 layout/wordpress/sosimple/
 ```
 
-Designs with 2 hyphens at the beginning currently dont work correctly with the wp-2015 generator and need fixing, e.g. `layout/wordpress/--*/`
+_Designs with 2 hyphens at the beginning currently dont work correctly with the wp-2015 generator and need fixing, e.g. `layout/wordpress/--*/`_
 
 ## ZP.CMS layout values
 
