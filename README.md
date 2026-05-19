@@ -28,6 +28,9 @@ layout/wordpress/twentytwentyfive/
 layout/wordpress/editor/
 layout/wordpress/minnow/
 layout/wordpress/sosimple/
+layout/wordpress/noto-simple/
+layout/wordpress/seedlet/
+layout/wordpress/generatepress/
 ```
 
 _Designs with 2 hyphens at the beginning currently dont work correctly with the wp-2015 generator and need fixing, e.g. `layout/wordpress/--*/`_
