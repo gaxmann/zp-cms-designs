@@ -1,1 +1,9 @@
 __UNUSED/
+__conf.php
+index.php
+zpcache/
+*.log
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
