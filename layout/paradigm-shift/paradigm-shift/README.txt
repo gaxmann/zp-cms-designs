@@ -32,4 +32,14 @@ Credits:
 
 ---
 
-Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.
+## ZP.CMS Modifications: 
+
+Unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.
+
+`paradigm-shift/paradigm-shift` uses `layoutimg` for its large intro image:
+
+```php
+'layoutimg'=>['img'=>'./img/example.jpg', 'pos'=>'center'],
+```
+
+`img` is the image path. `pos` is passed to the layout as image position, for example `center`, `top`, `bottom`, `left`, `right`, `top left` or `bottom right`. In PHP mode, the current page may override individual values through `$GLOBALS['zdata']['layoutimg']`; values not mentioned there keep the global `zconf` default.
