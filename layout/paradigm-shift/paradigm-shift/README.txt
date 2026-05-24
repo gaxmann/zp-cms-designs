@@ -32,9 +32,9 @@ Credits:
 
 ---
 
-## ZP.CMS Modifications: 
+## ZANACMS Modifications: 
 
-Unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.
+Unused demo files, Sass sources, gallery images and icon webfonts removed for the ZANACMS package.
 
 `paradigm-shift/paradigm-shift` uses `layoutimg` for its large intro image:
 

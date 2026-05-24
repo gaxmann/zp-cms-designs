@@ -1,9 +1,9 @@
 # Third-party components and design snapshots
 
 This file lists third-party components and unchanged third-party design/theme snapshots
-used with or tested with ZP.CMS.
+used with or tested with ZANACMS.
 
-The files listed here are not part of the ZP.CMS source code unless explicitly stated.
+The files listed here are not part of the ZANACMS source code unless explicitly stated.
 Each component or design remains under its original upstream licence.
 
 ## water.css
@@ -28,8 +28,8 @@ Author: AJ / @ajlkn
 License: Creative Commons Attribution 3.0 (CCA 3.0)  
 License URL: html5up.net/license
 
-ZP.CMS includes the Editorial generator (`layout/_zpgen/editorial/zpgen.php`). The original HTML5 UP
-Editorial template files are not included in the ZP.CMS core package. To use this
+ZANACMS includes the Editorial generator (`layout/_zpgen/editorial/zpgen.php`). The original HTML5 UP
+Editorial template files are not included in the ZANACMS core package. To use this
 design, place the Editorial design files under:
 
 ```text
@@ -46,26 +46,26 @@ Author: AJ / @ajlkn
 License: Creative Commons Attribution 3.0 (CCA 3.0)  
 License URL: html5up.net/license
 
-ZP.CMS includes the Paradigm Shift generator (`layout/_zpgen/paradigm-shift/zpgen.php`). The original HTML5 UP
-Paradigm Shift template files are not included in the ZP.CMS core package. To use this
+ZANACMS includes the Paradigm Shift generator (`layout/_zpgen/paradigm-shift/zpgen.php`). The original HTML5 UP
+Paradigm Shift template files are not included in the ZANACMS core package. To use this
 design, place the Paradigm Shift design files under:
 
 ```text
 /layout/paradigm-shift/paradigm-shift/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'paradigm-shift/paradigm-shift'
 ```
 
-Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package.
+Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZANACMS package.
 
 ## WordPress design snapshots
 
 The following WordPress themes are optional third-party design snapshots tested with
-the ZP.CMS WordPress adapter. They are not part of the ZP.CMS core package.
+the ZANACMS WordPress adapter. They are not part of the ZANACMS core package.
 
 Place each original theme snapshot under the matching directory in `/layout/wordpress/`.
 
@@ -89,7 +89,7 @@ Directory:
 /layout/wordpress/editor/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/editor'
@@ -105,8 +105,8 @@ License: GPLv2 or later
 Source: http://themegraphy.com/wordpress-themes/graphy/  
 Version: 2.2.1 sic(!)
 
-ZP.CMS has been tested with this version. Other versions may work, but themes that
-require WordPress versions later than 4.1 are not compatible with ZP.CMS.
+ZANACMS has been tested with this version. Other versions may work, but themes that
+require WordPress versions later than 4.1 are not compatible with ZANACMS.
 
 Directory:
 
@@ -114,7 +114,7 @@ Directory:
 /layout/wordpress/graphy/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/graphy'
@@ -130,8 +130,8 @@ License: GPLv2 or later
 Source: https://wpcom-themes.svn.automattic.com/syntax/  
 Version: 1.1.0 - Jun 19 2015 - sic(!)
 
-ZP.CMS has been tested with this version. Other versions may work, but themes that
-require WordPress versions later than 4.1 are not compatible with ZP.CMS.
+ZANACMS has been tested with this version. Other versions may work, but themes that
+require WordPress versions later than 4.1 are not compatible with ZANACMS.
 
 Directory:
 
@@ -139,7 +139,7 @@ Directory:
 /layout/wordpress/syntax/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/syntax'
@@ -162,7 +162,7 @@ Directory:
 /layout/wordpress/twentytwentyfive/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/twentytwentyfive'
@@ -190,7 +190,7 @@ Directory:
 /layout/wordpress/minnow/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/minnow'
@@ -218,7 +218,7 @@ Directory:
 /layout/wordpress/noto-simple/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/noto-simple'
@@ -246,7 +246,7 @@ Directory:
 /layout/wordpress/sosimple/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/sosimple'
@@ -279,7 +279,7 @@ Directory:
 /layout/wordpress/seedlet/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/seedlet'
@@ -307,7 +307,7 @@ Directory:
 /layout/wordpress/independent-publisher-2/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/independent-publisher-2'
@@ -338,7 +338,7 @@ Directory:
 /layout/wordpress/generatepress/
 ```
 
-ZP.CMS layout value:
+ZANACMS layout value:
 
 ```php
 'layout'=>'wordpress/generatepress'
@@ -349,4 +349,4 @@ Modifications: none
 ---
 ---
 
-Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZP.CMS package
+Modifications: unused demo files, Sass sources, gallery images and icon webfonts removed for the ZANACMS package

@@ -1,15 +1,15 @@
 Editorial
 =========
 
-ZP.CMS support note
+ZANACMS support note
 -------------------
 
-This directory is reserved for the Editorial design when used with ZP.CMS as:
+This directory is reserved for the Editorial design when used with ZANACMS as:
 
 	'layout'=>'editorial/editorial'
 
 The original Editorial template files by HTML5 UP are not included in this
-package. This directory may contain ZP.CMS-specific support files, for example
+package. This directory may contain ZANACMS-specific support files, for example
 `zp.css`.
 
 Original design
@@ -32,4 +32,4 @@ Notes
 -----
 
 Use this directory only together with the matching original Editorial template
-files. The ZP.CMS generator is `editorial`; the design name is `editorial`.
+files. The ZANACMS generator is `editorial`; the design name is `editorial`.

@@ -1,16 +1,16 @@
 Syntax
 ======
 
-ZP.CMS support note
+ZANACMS support note
 -------------------
 
 This directory is reserved for the WordPress design `syntax` when used with
-ZP.CMS as:
+ZANACMS as:
 
 	'layout'=>'wordpress.2015/syntax'
 
 The original Syntax WordPress theme files are not included in this package.
-This directory may contain ZP.CMS-specific support files, for example `zp.css`.
+This directory may contain ZANACMS-specific support files, for example `zp.css`.
 
 Original design
 ---------------
@@ -26,4 +26,4 @@ Notes
 -----
 
 Use this directory only together with the matching original Syntax theme files.
-The ZP.CMS WordPress family is `wordpress`; the variant hint is `2015`; the design name is `syntax`.
+The ZANACMS WordPress family is `wordpress`; the variant hint is `2015`; the design name is `syntax`.
