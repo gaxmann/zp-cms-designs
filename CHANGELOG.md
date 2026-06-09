@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.6.2 - 2026-06-10
+
+- Replaced repeated `~~ZBASEURL~~layout/...` asset paths with `~~ZDIRDESIGN~~` and `~~ZDIRSCRIPTS~~`.
+
+## v1.6.1 - 2026-06-10
+
+- scripts dir moved to _script.
+
 ## v1.5.1 - 2026-05-26
 
 - The design templates were migrated from the legacy ZP-HVAR notation to the new HVAR tokens format `~~Z...~~` because they are much easier to write and completely prevent parsing issues within links and URLs.

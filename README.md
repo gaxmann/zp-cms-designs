@@ -101,6 +101,17 @@ $GLOBALS['zconf']=[
 ];
 ```
 
+## ZANACMS placeholders
+
+Design templates use ZANACMS HVAR placeholders for local assets:
+
+```text
+~~ZDIRDESIGN~~   selected design directory, for example /layout/wordpress/graphy/
+~~ZDIRSCRIPTS~~  shared script directory, /layout/_scripts/
+```
+
+Use `~~ZDIRDESIGN~~` for CSS, JavaScript, fonts and images inside the current design directory. Use `~~ZDIRSCRIPTS~~` only for shared script files provided by ZANACMS.
+
 ## Licensing
 
 There is no single project licence for this repository. Each included design/theme remains under its original upstream licence, including its original copyright notices and attribution requirements.
