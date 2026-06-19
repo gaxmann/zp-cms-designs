@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.7.1 - 2026-06-20
+
+- Changed design HVAR placeholders from `~~Z...~~` to `{{Z...}}` for compatibility with the current ZANACMS runtime.
+
 ## v1.6.2 - 2026-06-10
 
 - Replaced repeated `~~ZBASEURL~~layout/...` asset paths with `~~ZDIRDESIGN~~` and `~~ZDIRSCRIPTS~~`.
